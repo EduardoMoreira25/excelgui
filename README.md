@@ -1,17 +1,39 @@
-Usage
-To use this program, follow these steps:
+# Data Entry Form using PySimpleGUI and Pandas
 
-Open a terminal or command prompt and navigate to the directory where you saved the data_entry_form.py file.
-Run the command: python data_entry_form.py
-The program will display a window with several fields for the user to fill out. The user can enter their name, city, favorite color, languages spoken, and number of children. When the user clicks the "Submit" button, the data is saved to an Excel file.
-The user can also click the "Clear" button to reset all the input fields.
-Saving Data
-By default, the program saves data to an Excel file named gui-excel.xlsx. You can change the name of the file by modifying the EXCEL_FILE variable in the code.
+This is a simple data entry form built using PySimpleGUI and Pandas. The user is prompted to fill out a form with the following fields:
 
-Creating an Executable
-To create an executable for this program, you can use a tool like PyInstaller. Follow these steps:
+- Name
+- City
+- Favorite Colour
+- I speak (German, Portuguese, Spanish)
+- No. of Children
 
-Install PyInstaller using pip: pip install pyinstaller
-Navigate to the directory containing the data_entry_form.py file.
-Run the command: pyinstaller data_entry_form.py --onefile
-The executable will be created in the dist directory.
+The user can submit the form or clear the input fields. The submitted data is saved to an Excel file named `gui-excel.xlsx`.
+
+## Requirements
+
+- Python 3.x
+- PySimpleGUI
+- pandas
+
+## How to Use
+
+1. Clone the repository or download the script.
+
+2. Open the terminal and navigate to the directory containing the script.
+
+3. Run the following command to install the required packages:
+
+pip install PySimpleGUI pandas
+
+4. Run the script using the following command:
+
+python data_entry_form.py
+
+5. Fill out the form and click "Submit" to save the data to `gui-excel.xlsx`.
+
+6. Click "Clear" to reset the form.
+
+7. Click "Exit" or close the window to exit the program.
+
+
